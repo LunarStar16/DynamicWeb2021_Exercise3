@@ -30,13 +30,13 @@ function Quote(image, title, author, tags, color) {
 
 var quotes = [
     new Quote(
-        "images/capricorn_KirkReinert.jpg",
+        "images/capcornKirkReinert.jpg",
         "Capricorn",
         "Kirk Reinert",
         ["Fantasy", "Creature"],
         "violet"),
     new Quote(
-        "images/ClairesWings_KinukoYCraft.png",
+        "images/ClaireWingKinuko.png",
         "Claire's Wings",
         "Kinuko Y. Craft",
         ["Fantasy", "Fairy"],
