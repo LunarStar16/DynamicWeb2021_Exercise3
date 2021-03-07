@@ -10,3 +10,18 @@ html, body{
 img{
     max-width: 100%;
 }
+
+.quotes {
+    color: white;
+    display: flex;
+}
+
+div > div{
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+}
+
+.active{
+    background: pink;
+}
