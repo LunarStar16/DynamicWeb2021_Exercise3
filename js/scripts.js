@@ -30,23 +30,65 @@ function Quote(image, title, author, tags, color) {
 
 var quotes = [
     new Quote(
-        "images/Test1.jpg",
-        "title",
-        "Author",
-        ["tag1", "tag2"],
-        "#0a3410"),
+        "images/capricorn_KirkReinert.JPG",
+        "Capricorn",
+        "Kirk Reinert",
+        ["Fantasy", "Creature"],
+        "violet"),
     new Quote(
-        "images/Test1.jpg",
-        "title",
-        "Henry Matisse",
-        ["painting", "creativity"],
-        "lightblue"),
+        "images/ClairesWings_KinukoYCraft.PNG",
+        "Claire's Wings",
+        "Kinuko Y. Craft",
+        ["Fantasy", "Fairy"],
+        "black"),
     new Quote(
-        "images/Test1.jpg",
-        "title",
-        "Me",
-        ["tag", "creativity"],
-        "lavender")
+        "images/crystalbeams_KirkReinert.jpg",
+        "Crystal Beams",
+        "Kirk Reinert",
+        ["Fantasy", "Fairy"],
+        "violet"), 
+    new Quote(
+        "images/DragonDancers_JosephineWall-Surreal.jpg",
+        "Dragon Dancers",
+        "Josephine Wall",
+        ["Fantasy", "Creature", "Surreal"],
+        "black"),
+    new Quote(
+        "images/enchantedlakeII_KirkReinert.jpg",
+        "Enchanted Lake II",
+        "Kirk Reinert",
+        ["Fantasy", "Landscape"],
+        "violet"),
+    new Quote(
+        "images/fromhelltoeternity_JimWarren-surreal.jpg",
+        "From Hell To Eternity",
+        "Jim Warren",
+        ["Fantasy", "Landscape", "Surreal"],
+        "black"),
+    new Quote(
+        "images/isthisthereallifeorisitjustfantasy_JimWarren-Surreal.jpg",
+        "Is This The Real Life... Or Is It Just Fantasy",
+        "Jim Warren",
+        ["Fantasy", "Creature", "Surreal"],
+        "violet"),
+    new Quote(
+        "images/moonbabies_KirkReinert.jpg",
+        "Moon Babies",
+        "Kirk Reinert",
+        ["Fantasy", "Creature"],
+        "black"),
+    new Quote(
+        "images/mysteriousGarden_KinukoYCraft.jpg",
+        "Mysterious Garden",
+        "Kinuko Y. Craft",
+        ["Fantasy", "Creature", "Landscape"],
+        "violet"),
+    new Quote(
+        "images/WhereMoonbeamsFall_JosephineWall.jpg",
+        "Where Moonbeams Fall",
+        "Josephine Wall",
+        ["Fantasy", "Fairy"],
+        "black")
 ]
 
 

@@ -12,15 +12,21 @@ img{
     text-align: center;
 }
 
+body{
+    background: black;
+}
+
 .quotes {
     color: white;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
 }
 
 div > div{
     width: 250px;
-    height: 300px;
+    height: 290px;
     padding: 20px;
+    border: solid 2px violet;
 }
 
 h3{
@@ -29,5 +35,5 @@ h3{
 }
 
 .active{
-    background: pink;
+    background: #dda4dd;
 }
