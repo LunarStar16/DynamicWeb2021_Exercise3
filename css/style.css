@@ -9,6 +9,7 @@ html, body{
 
 img{
     max-width: 100%;
+    text-align: center;
 }
 
 .quotes {
@@ -18,8 +19,13 @@ img{
 
 div > div{
     width: 250px;
-    height: 250px;
+    height: 300px;
     padding: 20px;
+}
+
+h3{
+    margin-top: 0px;
+    margin-bottom: 5px;
 }
 
 .active{

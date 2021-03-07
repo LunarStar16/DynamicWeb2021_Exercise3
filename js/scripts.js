@@ -1,13 +1,14 @@
 
 
 
+//var imgURL = chrome.runtime.getURL("images/Test1.jpg");
 
-
-function Quote(quoteText, author, tags, color) {
-    this.quote = quoteText;
-    this.author = author
-    this.tags = tags
-    this.color = color
+function Quote(image, title, author, tags, color) {
+    this.src = image;
+    this.title = title;
+    this.author = author;
+    this.tags = tags;
+    this.color = color;
     this.display = function(){
         
         var container = $("<div>")
@@ -18,7 +19,8 @@ function Quote(quoteText, author, tags, color) {
         container.addClass("quote")
         
         var quoteString = "";
-        quoteString += "<p>" + this.quote + "</p>";
+        quoteString += "<img src='" + this.src + "'>";
+        quoteString += "<h3>" + this.title + "</h3>";
         quoteString += "<cite>" + this.author + "</cite>";
         
         container.html(quoteString)
@@ -28,15 +30,23 @@ function Quote(quoteText, author, tags, color) {
 
 var quotes = [
     new Quote(
-        '"we don\'t make mistakes, just happy little accidents."',
-        "Bob Ross",
-        ["painting", "mistakes"],
+        "images/Test1.jpg",
+        "title",
+        "Author",
+        ["tag1", "tag2"],
         "#0a3410"),
     new Quote(
-        '"Creativity takes courage."',
+        "images/Test1.jpg",
+        "title",
         "Henry Matisse",
         ["painting", "creativity"],
-        "lightblue")
+        "lightblue"),
+    new Quote(
+        "images/Test1.jpg",
+        "title",
+        "Me",
+        ["tag", "creativity"],
+        "lavender")
 ]
 
 
